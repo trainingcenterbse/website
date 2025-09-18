@@ -1,0 +1,34 @@
+# WordPress core files to ignore
+/wordpress/wp-config.php
+/wordpress/wp-content/uploads/
+/wordpress/wp-content/upgrade/
+/wordpress/wp-content/backup-db/
+/wordpress/wp-content/cache/
+/wordpress/wp-content/backups/
+
+# Various WordPress system files
+*.log
+.htaccess
+
+# WordPress content specific
+/wordpress/wp-content/advanced-cache.php
+/wordpress/wp-content/wp-cache-config.php
+/wordpress/wp-content/plugins/hello.php
+
+# Environment specific
+.env
+.env.*
+!.env.example
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.idea/
